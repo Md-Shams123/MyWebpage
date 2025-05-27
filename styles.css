@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #007bff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a.active {
+    color: #ffcc00; /* Yellow color for active link */
+    font-weight: bold;
+}
+
+/* Sections */
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Form Styling */
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block; /* Makes the label take its own line */
+    margin-bottom: 10px; /* Space below the label */
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 20px; /* Space below the textbox */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px; /* Fixed width for better alignment */
+}
+
+.button-container {
+    margin-top: 20px; /* Space above the buttons */
+}
+
+.form-button {
+    padding: 8px 15px; /* Slightly larger padding for better appearance */
+    background-color: #007bff; /* Same blue color for all buttons */
+    color: white;
+    border: none;
+    border-radius: 15px; /* Curved buttons */
+    cursor: pointer;
+    margin: 0 10px; /* Space between buttons */
+}
+
+.form-button:hover {
+    background-color: #003087; /* Darker blue for hover (more noticeable change) */
+}
+
+/* Contact Info Styling */
+#contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#contact-info a:hover {
+    text-decoration: underline;
+}
